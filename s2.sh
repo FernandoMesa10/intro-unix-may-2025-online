@@ -2,11 +2,11 @@
 man gcc
 #
 gcc --help
-#
+#compilamos el codigo hola .c y con -o pusimos el nombre
 gcc hola.c -o hola_binario
-#
+# que ttipo de archivo era el binario
 file hola_binario
-#
+#para ver que tipo de archivo era el hola.c
 file hola.c
 #IMPRIME EL DOCUMENTO ACTUAL
 pwd
