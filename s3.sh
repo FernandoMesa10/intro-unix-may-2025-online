@@ -51,10 +51,9 @@ rmdir PADRE/
 # REMOVE ELIMINA ARCHIVO
 rm nuevo_archivo
 # aqui copiamos la carpeta
-#
 cp Padre
 #mover o renombrar
 mv
-#
+#listar los archivos 
 ls destino/Padre
 #en Unix todo es un archivo

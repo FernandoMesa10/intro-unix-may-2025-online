@@ -1,3 +1,11 @@
+# con nano podemos llamar a un editor de texto
+# y al agregar .py expicamos que es un archivo de python
+# con cat vemos qye tiene ese archivo
+nano suma.py
+cat calculadora.py
+nano calculadora.py
+#
+sudo apt
 #dependency hell
 #defini una funcion suma
 touch sumar.py 

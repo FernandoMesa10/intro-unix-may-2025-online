@@ -8,6 +8,7 @@ LAST_NAME="${2}"
 touch output.txt
 
 # Write the current date using DD-MM-YYYY format
+#al poner M mayuscula aparece los minutos
 date +%m-%d-%Y >> output.txt
 
 # Append first and last name to the file

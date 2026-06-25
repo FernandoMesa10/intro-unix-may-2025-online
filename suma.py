@@ -1,3 +1,2 @@
-import suma
-print(suma.sumar(5+2)
-
+def sumar (a,b):
+    return a+b
