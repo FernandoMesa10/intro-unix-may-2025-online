@@ -42,5 +42,11 @@ touch archivo2
 #primero creamos un nuevo archivo para la prueba 
 #damos los permisos con la anotacion simbolica
  chmod u=rx,g=x,o=rwx archivo2
-#con umask res
+#con umask se define los permisos predeterminados que se aplicaran automaticamente
 umask
+#NOS LLEVA ALA RUTA HOME
+cd
+#crear un archivo en la ruta home, como en el home no tenemos la lista de control de acceso ahi si 
+touch archivo4
+# con sat podemos ver la informacion detallada del archivo 
+stat nombre del archivo 
